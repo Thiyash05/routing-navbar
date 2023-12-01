@@ -1,0 +1,169 @@
+
+/*================== nav section ==========================*/
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 2px;
+  }
+  nav ul li{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+  
+  }
+  a:-webkit-any-link {
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  nav h1{
+    color: #f3f3ef;
+    font-family: fantasy;
+    letter-spacing: 3px;
+  }
+  nav{
+    position: fixed;
+    width: 100%;
+    background-color: #00000066;
+   
+  }
+  
+  
+  /*==================== banner section =====================*/
+  .banner-sec{
+    background: linear-gradient(#1010108c ,#151616bd),url(../img/img1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  .banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  .banner-text h5{
+    margin-bottom: -21px;
+    font-weight: 500;
+    font-size: 41px;
+    color: white;
+    letter-spacing: 7px;
+  }
+  .banner-text span{
+    color: yellow;
+    font-size: 81px;
+    font-family: serif;
+  }
+  .banner-text h1{
+    font-size: 57px;
+    color: white;
+    letter-spacing: 2px;
+  }
+  
+
+  /*================== about section  =======================*/
+  .about-sec{
+    padding-top: 130px;
+  }
+  .about-container{
+    width:90%;
+    margin: 0 auto;
+  }
+  .about-row{
+    display: flex;
+    gap: 5%;
+  }
+  .about-col1{
+    width: 50%;
+  
+  }
+  .about-col2{
+    width: 50%;
+  }
+  .about-col1 p{
+    text-align: justify;
+
+  }
+  .about-col1 h3{
+    font-size: 30px;
+    text-align: justify;
+
+  }
+
+
+  /*=================== Product section ===============*/
+  .product-sec{
+    padding-top: 90px;
+  }
+  .product-container{
+    width: 90%;
+    margin:0 auto;
+  }
+  .product-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-col{
+    width:25%;
+  }
+  .card-detail img{
+    width: 100%;
+    height: 30vh;
+  }
+  .card{
+    padding: 12px;
+  }
+  .card-detail{
+    border: 1px solid #8080805e;
+    padding: 12px;
+  }
+  .card-detail h5{
+    font-weight: 400;
+    text-align: left;
+
+  }
+  .product-price{
+    display: flex;
+  }
+  .card-detail .delete{
+    margin-right: 11px;
+    margin-top: -17px;
+  }
+  .card-detail .insect{
+    font-weight: 700; 
+    margin-top: -17px;
+    margin-right: 11px;
+  }
+  .card-detail p{
+    margin-top: 8px;
+    text-align: left;
+  }
+
+
+
+
+  /*=================== Contact section ===============*/
+  .foot-sec{
+    padding-top: 90px;
+  }
+  .foot-container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .foot-row{
+    display: flex;
+
+  }
+  .foot-col{
+    width: 33.3%;
+  }
+  .foot-col ul{
+    list-style-type: none;
+    text-align: justify;
+    line-height:2;
+  }
